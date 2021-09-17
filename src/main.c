@@ -3,5 +3,6 @@
 #include "netapi.h"
 
 int main() {
+    initConfig();
     return 0;
 }

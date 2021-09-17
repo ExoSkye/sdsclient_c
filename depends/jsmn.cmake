@@ -13,5 +13,5 @@ if(NOT jsmn_POPULATED)
     message(STATUS "Fetched jsmn")
 endif()
 
-add_library(jsnm INTERFACE)
-target_include_directories(jsnm INTERFACE ${jsnm_SOURCE_DIR})
+add_library(jsmn INTERFACE)
+target_include_directories(jsmn INTERFACE ${jsmn_SOURCE_DIR})
