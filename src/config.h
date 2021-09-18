@@ -5,6 +5,7 @@
 // Init stuff
 bool initConfig();
 bool initConfigFromFile(const char* filename);
+void freeConfig();
 
 // Digest auth
 const char* getUsername();
@@ -13,6 +14,7 @@ const char* getPassword();
 // Networking
 const char* getIp();
 int getPort();
+const char* getScheme();
 
 // Identification
 const char* getName();

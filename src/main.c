@@ -4,5 +4,9 @@
 
 int main() {
     initConfig();
+    netInit();
+    netGetConfig();
+    netDelete();
+    freeConfig();
     return 0;
 }
